@@ -1,0 +1,12 @@
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:3:6:traffic_red1_green2	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:9:6:traffic_red1_amber2	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:15:6:traffic_green1_red2	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:21:6:traffic_amber1_red2	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:27:6:traffic_all_on	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:34:6:traffic_all_toggle	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:39:6:traffic_red_blink_init	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:45:6:traffic_red_toggle	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:49:6:traffic_amber_blink_init	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:55:6:traffic_amber_toggle	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:59:6:traffic_green_blink_init	8	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/traffic_light.c:65:6:traffic_green_toggle	8	static
