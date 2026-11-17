@@ -50,6 +50,11 @@ uint8_t isButtonLongPressed(uint8_t index) {
 }
 
 void button_reading(void) {
+    if (timers[4].flag != 1) {
+        return;
+    }
+    setTimer(4, TIMER_CYCLE);
+
     for (uint8_t i = 0; i < NO_OF_BUTTONS; i++) {
         KeyReg2[i] = KeyReg1[i];
         KeyReg1[i] = KeyReg0[i];

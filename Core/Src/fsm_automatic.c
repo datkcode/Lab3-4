@@ -11,6 +11,7 @@ void fsm_automatic_run(void) {
     status = RED1_GREEN2;
     setTimer(0, time_green);
     setTimer(3, time_7SEG);
+    setTimer(4, TIMER_TICK);
     break;
   case RED1_GREEN2:
     // Logic for RED1_GREEN2

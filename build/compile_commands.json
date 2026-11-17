@@ -67,6 +67,12 @@
 },
 {
   "directory": "D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/build",
+  "command": "C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103x6 -DUSE_HAL_DRIVER -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Core/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\Lab3.dir\\Core\\Src\\schedular.c.obj -c D:\\DAI_HOC\\Uni3\\VXL-VDK\\Project_new\\Lab3\\Core\\Src\\schedular.c",
+  "file": "D:\\DAI_HOC\\Uni3\\VXL-VDK\\Project_new\\Lab3\\Core\\Src\\schedular.c",
+  "output": "CMakeFiles\\Lab3.dir\\Core\\Src\\schedular.c.obj"
+},
+{
+  "directory": "D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/build",
   "command": "C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103x6 -DUSE_HAL_DRIVER -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Core/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\Lab3.dir\\Core\\Src\\fsm_automatic.c.obj -c D:\\DAI_HOC\\Uni3\\VXL-VDK\\Project_new\\Lab3\\Core\\Src\\fsm_automatic.c",
   "file": "D:\\DAI_HOC\\Uni3\\VXL-VDK\\Project_new\\Lab3\\Core\\Src\\fsm_automatic.c",
   "output": "CMakeFiles\\Lab3.dir\\Core\\Src\\fsm_automatic.c.obj"

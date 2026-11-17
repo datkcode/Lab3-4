@@ -1,0 +1,8 @@
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:7:24:SCH_Lock	16	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:13:20:SCH_Unlock	24	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:17:17:Get_New_Task_ID	4	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:25:6:SCH_Init	16	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:32:6:SCH_Update	16	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:48:6:SCH_Dispatch_Tasks	32	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:68:10:SCH_Add_Task	40	static
+D:/DAI_HOC/Uni3/VXL-VDK/Project_new/Lab3/Core/Src/schedular.c:95:9:SCH_Delete_Task	24	static

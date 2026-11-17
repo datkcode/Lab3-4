@@ -28,6 +28,7 @@
 #include "fsm_setting.h"
 #include "global.h"
 #include "led_7seg.h"
+#include "schedular.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,6 +97,13 @@ int main(void) {
   MX_GPIO_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  SCH_Init();
+  SCH_Add_Task(timerRun, 0, 1);
+  SCH_Add_Task(button_reading, 0, 1);
+  SCH_Add_Task(fsm_automatic_run, 0, 1);
+  SCH_Add_Task(fsm_manual_run, 0, 1);
+  SCH_Add_Task(fsm_setting_run, 0, 1);
+  SCH_Add_Task(led_7seg_run, 0, 1);
   HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
 
@@ -105,10 +113,7 @@ int main(void) {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    fsm_automatic_run();
-    fsm_manual_run();
-    fsm_setting_run();
-    led_7seg_run();
+    SCH_Dispatch_Tasks();
   }
   /* USER CODE END 3 */
 }
@@ -247,8 +252,9 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-  timerRun();
-  button_reading();
+  if (htim->Instance == TIM2) {
+    SCH_Update();
+  }
 }
 /* USER CODE END 4 */
 

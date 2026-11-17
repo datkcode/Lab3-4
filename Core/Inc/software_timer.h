@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 #define TIMER_TICK  10
-#define NUM_TIMERS 4
+#define NUM_TIMERS 5
 
 typedef struct {
     int counter;

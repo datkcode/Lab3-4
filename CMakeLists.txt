@@ -50,6 +50,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Core/Src/button.c
     Core/Src/traffic_light.c
     Core/Src/led_7seg.c
+    Core/Src/schedular.c
     Core/Src/fsm_automatic.c
     Core/Src/fsm_manual.c
     Core/Src/fsm_setting.c
